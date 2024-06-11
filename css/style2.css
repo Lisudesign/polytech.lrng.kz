@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: #876c99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.logo a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo span {
+  color: #f9004d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f9004d;
+}
+
+.btn {
+  background: #f9004d;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e0003d;
+}
+
+.content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.link .hire {
+  display: inline-block;
+  margin-top: 20px;
+  background: #fff;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.link .hire:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* Additional Animations */
+
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__bounceInDown {
+  animation-name: bounceInDown;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
